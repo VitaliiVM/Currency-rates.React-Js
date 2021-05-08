@@ -4,6 +4,8 @@ import React from "react";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Rate from "./Rate/Rate";
+import About from "./About/About";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 class App extends React.Component{
   // constructor(props) {
@@ -17,8 +19,12 @@ class App extends React.Component{
 
          <div className="container">
            <main>
-            <Rate/>
-
+             <Router>
+             <Switch>
+               <Route exact path="/" component={Rate}></Route>
+               <Route exact path="/about" component={About}></Route>
+             </Switch>
+             </Router>
            </main>
          </div>
 

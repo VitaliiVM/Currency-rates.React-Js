@@ -9,11 +9,11 @@ class Nav extends React.Component {
                     <nav>
                         <ul>
                             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                            <li><a href="#">Главная</a></li>
+                            <li><a href="/">Главная</a></li>
                             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                            <li><a href="#">Пункты обмена</a></li>
+                            <li><a href="/about">О нас</a></li>
                             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                            <li><a href="#">Контакты</a></li>
+                            <li><a href="https://itgid.info/">Контакты</a></li>
                         </ul>
                     </nav>
                 </div>
