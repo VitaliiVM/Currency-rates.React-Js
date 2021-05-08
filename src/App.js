@@ -18,29 +18,7 @@ class App extends React.Component{
          <div className="container">
            <main>
             <Rate/>
-             <h3> Калькулятор обмена</h3>
-             <div className="block">
-               <div>Я хочу</div>
-               <div><label><input type="radio" name="radio" value="0"/> купить</label></div>
-               <div><label><input type="radio" name="radio" value="1"/> продать</label></div>
-               <div>
-                 <input type="number" defaultValue="150"/>
-                   <select name="" id="">
-                     <option value="USD">USD</option>
-                     <option value="RUB">RUB</option>
-                     <option value="EUR">EUR</option>
-                   </select>
-               </div>
-               <div>
-                 <h4>Результат</h4>
-                 <ul className="calc-res">
-                   <li>EUR 150</li>
-                   <li>EUR 150</li>
-                   <li>EUR 150</li>
-                   <li>EUR 150</li>
-                 </ul>
-               </div>
-             </div>
+
            </main>
          </div>
 

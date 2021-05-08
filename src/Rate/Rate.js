@@ -1,5 +1,6 @@
 import './rate.css';
 import React from "react";
+import Calc from "../Calc/Calc";
 
 class Rate extends React.Component {
 constructor(props) {
@@ -41,18 +42,8 @@ constructor(props) {
                           <p>* Можно купить за один EUR</p>
                       </div>
                   ))}
-
-                  {/*<div className="block flex-item">*/}
-                  {/*    <div className="currency-name">USD</div>*/}
-                  {/*    <div className="currency-in">1500 Kr</div>*/}
-                  {/*    <div className="currency-out">1200 Kr</div>*/}
-                  {/*</div>*/}
-                  {/*<div className="block flex-item">*/}
-                  {/*    <div className="currency-name">USD</div>*/}
-                  {/*    <div className="currency-in">1500 Kr</div>*/}
-                  {/*    <div className="currency-out">1200 Kr</div>*/}
-                  {/*</div>*/}
               </div>
+              <Calc rate={this.state.currencyRate}/>
           </div>
         );
     }
